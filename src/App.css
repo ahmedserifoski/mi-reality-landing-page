@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    
 }
 
 .big-container {
@@ -22,4 +23,5 @@ body {
     align-items: center;
     max-width: 1200px;
     background-color: rgb(195, 216, 255);
+    font-family: 'Ubuntu', sans-serif;
 }

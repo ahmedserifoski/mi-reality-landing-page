@@ -1,0 +1,9 @@
+.but {
+    background-color: #00ff00;
+    padding: 10px 16px;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+}
+

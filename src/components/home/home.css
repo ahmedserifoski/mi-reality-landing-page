@@ -1,4 +1,16 @@
 .home {
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.p-home {
+    margin-top: 15px;
+    width: 80vw;
+    font-size: 14px;
+}
+
+.mi-reality {
+    width: 80vw;
 }
