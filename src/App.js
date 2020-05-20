@@ -1,11 +1,15 @@
 import React from 'react';
 
+import NavBar from "./navBar/NavBar"
+
 import './App.css';
+import Home from './components/home/home';
 
 function App() {
   return (
-    <div>
-      
+    <div className="big-container">
+      <NavBar />
+      <Home />
     </div>
   );
 }
