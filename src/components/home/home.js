@@ -2,6 +2,8 @@ import React from "react"
 
 import "./home.css"
 import Button from "../Button"
+import product from "./product.png"
+
 
 class Home extends React.Component {
 
@@ -13,7 +15,7 @@ class Home extends React.Component {
                 <h1 className="mi-reality">Mi reality is now going virtual</h1>
                 <p className="p-home">Best in class virtual reaity gear to make your everyday experience great. Go check it out!</p>
                 <Button text="Buy Now" className="but-home"/>
-                <img src="product.png" alt="Virtual Head Set"/>
+                <img className="head-set" src={product} alt="Virtual Head Set"/>
             </div>
         )
     }
