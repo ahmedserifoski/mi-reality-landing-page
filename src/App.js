@@ -6,7 +6,8 @@ import NavBar from "./navBar/NavBar"
 import Home from './components/home/home'
 import Features from "./components/features/features"
 import Specs from "./components/specs/specs"
-import Subscribe from './components/subscribe/subscribe';
+import Subscribe from './components/subscribe/subscribe'
+import Footer from "./components/footer/footer"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Features />
       <Specs />
       <Subscribe />
+      <Footer />
     </div>
   );
 }

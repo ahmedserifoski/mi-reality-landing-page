@@ -1,3 +1,14 @@
 .specs {
     width: 90vw;
+    display: flex;
+}
+
+.goggles {
+    width: 80vw;
+}
+
+@media screen and (min-width: 768px) {
+    .goggles {
+        width: 40vw;
+    }
 }

@@ -4,6 +4,7 @@ import "./home.css"
 import Button from "../Button"
 import product from "./product.png"
 
+import {MDBContainer} from "mdbreact"
 
 class Home extends React.Component {
 
@@ -11,12 +12,15 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div className="home">
-                <h1 className="mi-reality">Mi reality is now going virtual</h1>
-                <p className="p-home">Best in class virtual reaity gear to make your everyday experience great. Go check it out!</p>
-                <Button text="Buy Now" className="but-home"/>
+            <MDBContainer className="home">
+                <MDBContainer className="home2">
+                    <h1 className="mi-reality">Mi reality is now going virtual</h1>
+                    <p className="p-home grey-text">Best in class virtual reaity gear to make your everyday experience great. Go check it out!</p>
+                    <Button text="Buy Now" className="but-home"/>
+                </MDBContainer>
+                
                 <img className="head-set" src={product} alt="Virtual Head Set"/>
-            </div>
+            </MDBContainer>
         )
     }
 }

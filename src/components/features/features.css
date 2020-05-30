@@ -1,10 +1,9 @@
-.features {
-    margin-top: 60px;
-    width: 100vw;
-    text-align: center;
+.card {
+    width: 75vw;
 }
 
-.card {
-    width: 85vw;
-    
+@media screen and (min-width: 768px) {
+    .card {
+        width: 18vw;
+    }
 }

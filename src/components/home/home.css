@@ -1,9 +1,13 @@
+
+
 .home {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+
 
 .p-home {
     margin-top: 15px;
@@ -17,4 +21,26 @@
 
 .head-set {
     width: 90vw;
+}
+
+@media screen and (min-width: 768px) {
+
+    .home{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .p-home {
+        width: 40vw;
+    }
+
+    .mi-reality {
+        width: 40vw;
+    }
+
+    .head-set {
+        width: 40vw;
+    }
+
+    
 }
