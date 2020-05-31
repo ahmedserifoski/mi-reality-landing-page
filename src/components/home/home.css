@@ -5,9 +5,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1200px;
 }
 
-
+.home2 {
+    width: 40vw;
+}
 
 .p-home {
     margin-top: 15px;
@@ -21,6 +24,7 @@
 
 .head-set {
     width: 90vw;
+    max-width: 400px;
 }
 
 @media screen and (min-width: 768px) {
@@ -30,8 +34,12 @@
         flex-direction: row;
     }
 
-    .p-home {
+    .home2 {
         width: 40vw;
+    }
+
+    .p-home {
+        width: 30vw;
     }
 
     .mi-reality {
@@ -39,8 +47,7 @@
     }
 
     .head-set {
-        width: 40vw;
+        width: 50vw;
     }
 
-    
 }
