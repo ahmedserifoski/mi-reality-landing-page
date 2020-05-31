@@ -35,7 +35,7 @@
     }
 
     .home2 {
-        width: 40vw;
+        width: 20vw;
     }
 
     .p-home {
@@ -47,7 +47,13 @@
     }
 
     .head-set {
-        width: 50vw;
+        width: 40vw;
     }
 
+}
+
+@media screen and (min-width: 992px) {
+    .home {
+        width: 30em;
+    }
 }

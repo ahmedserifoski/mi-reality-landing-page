@@ -3,7 +3,7 @@ import { MDBBox, MDBCol, MDBContainer, MDBRow, MDBFooter  } from 'mdbreact'
 import "./footer.css"
 const Footer = () => {
     return(
-        <MDBFooter className="footer my-5 grey-text">
+        <MDBFooter className="footer my-5 grey-text d-flex flex-column flex-lg-row justify-content-center w-75">
         
             <div>
                 <MDBBox>Cu qui probo malorum saperet. Ne admodum apeirian iracundia usu, eam cu agam ludus, eum munere accusam molestie ut. Alienum percipitur ne est, pri quando iriure ad.</MDBBox>
@@ -11,7 +11,7 @@ const Footer = () => {
                 <MDBBox>© 2017 YDirection Themes by IOThemes</MDBBox>
             </div>
            
-                <MDBContainer className="mt-5 font-weight-bold">
+                <MDBContainer className="mt-5 mt-lg-0 font-weight-bold">
                     <MDBRow>
                         <MDBCol>
                             <ul>

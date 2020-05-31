@@ -2,7 +2,8 @@ import React from 'react';
 
 import './App.css';
 
-import NavBar from "./navBar/NavBar"
+import MenuPage from "./components/menuPage/menuPage"
+import HamburgerMenuPage from "./components/hamburgerMenuPage/hamburgerMenuPage"
 import Home from './components/home/home'
 import Features from "./components/features/features"
 import Specs from "./components/specs/specs"
@@ -12,7 +13,7 @@ import Footer from "./components/footer/footer"
 function App() {
   return (
     <div className="big-container">
-      <NavBar />
+      <MenuPage />
       <Home />
       <Features />
       <Specs />

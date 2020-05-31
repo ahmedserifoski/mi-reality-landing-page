@@ -36,7 +36,7 @@ class TopMenu extends Component {
     return (
         <div>
           
-            <div className={top_menu_class} >
+            <div className={top_menu_class}>
               <Lead text="mi reality" />
               <div className='right'>
                 <Item text='Home' />

@@ -24,7 +24,7 @@ class Features extends React.Component {
             > 
                 <h5 className="grey-text">Mi Features</h5>
                 <h2 className="w-75 text-center">We deliever Exellent Features</h2>
-                <MDBBox className="grey-text w-75" tag="p">From development to the delievery of performance we don't compromise at any level to make your products the best!</MDBBox>
+                <MDBBox className="grey-text w-100 text-center" tag="p">From development to the delievery of performance we don't compromise at any level to make your products the best!</MDBBox>
                 <MDBContainer className="d-flex flex-column align-items-center flex-md-row justify-content-center flex-wrap">
                     <MDBCard className="mt-4 mx-2">
                         <MDBCardImage className="card card1 w-25 mt-3 mx-3 z-depth-0" src={png1}/>

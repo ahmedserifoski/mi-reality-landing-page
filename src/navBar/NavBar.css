@@ -9,16 +9,13 @@
 
 .top-menu > .right > * {
     margin-left: 5px;
-}
-
-
-
-.top-menu > .right > * {
     padding: 11.4px;
     display: inline-block;
     text-align: center;
     min-width: 50px;
 }
+
+
 
 .top-menu *:hover{
     cursor: pointer;
@@ -36,7 +33,7 @@
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .top-menu {
         padding: 40px 20px 20px 20px;
         max-height: 0;
@@ -52,7 +49,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .top-menu.toggled {
         padding: 60px 0 0 0;
         max-height: 1500px;
