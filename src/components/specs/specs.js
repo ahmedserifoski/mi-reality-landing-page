@@ -7,10 +7,10 @@ import "./specs.css"
 
 const Specs = () => {
     return(
-        <div className="specs d-flex flex-column flex-md-row py-5">
-            <MDBContainer>
-                <h2>Real time traffic and activity demographics</h2>
-                <MDBBox className="grey-text mt-3 mb-5" tag="p">I don't know what to type here so let me fill in some random text. Lorem ipsum is hard to consume text and I use it as a last resort. So, I'll fill random texr please and you don't even have to read it.</MDBBox>
+        <div className="specs w-75 d-flex flex-column align-items-center flex-md-row py-5">
+            <MDBContainer className="d-flex flex-column align-items-left">
+                <h2 className="w-100">Real time traffic and activity demographics</h2>
+                <MDBBox className="w-100 grey-text mt-3 mb-5" tag="p">I don't know what to type here so let me fill in some random text. Lorem ipsum is hard to consume text and I use it as a last resort. So, I'll fill random texr please and you don't even have to read it.</MDBBox>
                 <Button text="Buy Now" className="align-self-end"/>
             </MDBContainer>
             <img src={Oculus} className="goggles d-flex align-self-center" alt="Oculus" />

@@ -19,7 +19,7 @@ render() {
           <Router >
       <MDBNavbar light className="z-depth-0 light" expand="md">
         <MDBNavbarBrand>
-          <strong className="light-green white-text accent-3 px-4 py-3">Navbar</strong>
+          <strong className="light-green white-text accent-3 px-4 py-3">Mi Reality</strong>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
@@ -31,10 +31,10 @@ render() {
               <MDBNavLink to="#!">Features</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Pricing</MDBNavLink>
+              <MDBNavLink to="#!">Specs</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-            <MDBNavLink to="#!">Pricing</MDBNavLink>
+            <MDBNavLink to="#!">Subscribe</MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right>

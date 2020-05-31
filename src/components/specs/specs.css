@@ -1,7 +1,6 @@
 .specs {
-    width: 90vw;
     display: flex;
-    max-width: 1200px;
+    max-width: 1100px;
 }
 
 .goggles {
@@ -10,6 +9,6 @@
 
 @media screen and (min-width: 768px) {
     .goggles {
-        width: 40vw;
+        width: 30em;
     }
 }
