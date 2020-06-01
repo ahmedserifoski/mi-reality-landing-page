@@ -52,8 +52,3 @@
 
 }
 
-@media screen and (min-width: 992px) {
-    .home {
-        width: 30em;
-    }
-}
