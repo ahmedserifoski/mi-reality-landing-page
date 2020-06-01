@@ -4,11 +4,11 @@
 }
 
 .goggles {
-    width: 80vw;
+    width: 40vw;
 }
 
 @media screen and (min-width: 768px) {
     .goggles {
-        width: 30em;
+        width: 20em;
     }
 }
