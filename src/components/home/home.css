@@ -8,9 +8,6 @@
     max-width: 1200px;
 }
 
-.home2 {
-    width: 40vw;
-}
 
 .p-home {
     margin-top: 15px;
@@ -32,10 +29,6 @@
     .home{
         display: flex;
         flex-direction: row;
-    }
-
-    .home2 {
-        width: 20vw;
     }
 
     .p-home {
