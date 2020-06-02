@@ -9,9 +9,9 @@ const Specs = () => {
     return(
         <MDBContainer className="specs w-75 d-flex flex-column align-items-center flex-md-row py-5">
             <MDBContainer className="d-flex flex-column align-items-start">
-                <h2 className="">Real time traffic and activity demographics</h2>
-                <MDBBox className=" grey-text mt-3 mb-5" tag="p">I don't know what to type here so let me fill in some random text. Lorem ipsum is hard to consume text and I use it as a last resort. So, I'll fill random texr please and you don't even have to read it.</MDBBox>
-                <Button text="Buy Now" className="align-self-end"/>
+                <h2 className="align-self-start">Real time traffic and activity demographics</h2>
+                <MDBBox className="align-self-start grey-text mt-3 mb-5" tag="p">I don't know what to type here so let me fill in some random text. Lorem ipsum is hard to consume text and I use it as a last resort. So, I'll fill random texr please and you don't even have to read it.</MDBBox>
+                <Button text="Buy Now" className="align-self-start"/>
             </MDBContainer>
             <img src={Oculus} className="goggles d-flex align-self-center" alt="Oculus" />
             {/* <h2>Virtual Reality taken to the next level</h2>
