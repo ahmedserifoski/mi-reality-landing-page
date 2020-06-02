@@ -12,9 +12,9 @@ class Home extends React.Component {
 
     render() {
         return (
-            <MDBContainer className="home w-100 d-flex flex-column flex-md-row my-5">
-                <MDBContainer className="home2 d-flex flex-column justify-content-left">
-                    <h1 className="mi-reality">Mi reality is now going virtual</h1>
+            <MDBContainer className="home w-75 d-flex flex-column flex-md-row my-5">
+                <MDBContainer className="home2 d-flex flex-column align-items-start">
+                    <p className="h1 mi-reality">Mi reality is now going virtual</p>
                     <p className="p-home grey-text">Best in class virtual reaity gear to make your everyday experience great. Go check it out!</p>
                     <Button text="Buy Now" className="but-home"/>
                 </MDBContainer>

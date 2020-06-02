@@ -14,7 +14,7 @@ class Features extends React.Component {
         return (
             <div className="features 
                             py-5
-                            w-100 
+                            w-100
                             grey lighten-3 
                             d-flex 
                             flex-column 

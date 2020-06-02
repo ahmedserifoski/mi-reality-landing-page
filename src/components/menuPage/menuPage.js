@@ -15,7 +15,7 @@ toggleCollapse = () => {
 
 render() {
   return (
-      <MDBContainer className="w-100 ">
+      <MDBContainer className="w-75 ">
           <Router >
       <MDBNavbar light className="z-depth-0 light" expand="md">
         <MDBNavbarBrand>

@@ -3,7 +3,6 @@ import React from 'react';
 import './App.css';
 
 import MenuPage from "./components/menuPage/menuPage"
-import HamburgerMenuPage from "./components/hamburgerMenuPage/hamburgerMenuPage"
 import Home from './components/home/home'
 import Features from "./components/features/features"
 import Specs from "./components/specs/specs"
