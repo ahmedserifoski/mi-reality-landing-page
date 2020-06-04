@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {MDBContainer} from "mdbreact"
 import './App.css';
 
 import MenuPage from "./components/menuPage/menuPage"
@@ -11,14 +11,14 @@ import Footer from "./components/footer/footer"
 
 function App() {
   return (
-    <div className="big-container">
+    <MDBContainer className="big-container d-flex flex-column align-items-center w-100">
       <MenuPage />
       <Home />
       <Features />
       <Specs />
       <Subscribe />
       <Footer />
-    </div>
+    </MDBContainer>
   );
 }
 
