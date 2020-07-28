@@ -12,14 +12,14 @@ class Home extends React.Component {
 
     render() {
         return (
-            <MDBContainer className="home w-75 p-3 d-flex flex-column align-items-center flex-md-row my-5">
-                <MDBContainer className="home2 d-flex flex-column align-items-start text-left">
-                    <p className="h1 mi-reality align-self-start text-left">Mi reality is now going virtual</p>
-                    <p className="p-home grey-text align-self-start text-left">Best in class virtual reaity gear to make your everyday experience great. Go check it out!</p>
-                    <Button text="Buy Now" className="but-home align-self-start"/>
+            <MDBContainer className="d-flex flex-column align-items-center">
+                <MDBContainer className="">
+                    <p >Mi reality is now going virtual</p>
+                    <p >Best in class virtual reaity gear to make your everyday experience great. Go check it out!</p>
+                    <Button text="Buy Now" />
                 </MDBContainer>
                 
-                <img className="head-set d-flex align-self-center" src={product} alt="Virtual Head Set"/>
+                <img className="w-50" src={product} alt="Virtual Head Set"/>
             </MDBContainer>
         )
     }

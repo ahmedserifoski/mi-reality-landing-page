@@ -11,9 +11,9 @@ import Footer from "./components/footer/footer"
 
 function App() {
   return (
-    <MDBContainer className="big-container d-flex flex-column align-items-center w-100">
-      <MenuPage />
-      <Home />
+    <MDBContainer className="d-flex flex-column align-items-center justify-content-center align-self-center" >
+      <MenuPage className="d-flex flex-column align-items-center justify-content-center align-self-center"/>
+      <Home className="d-flex flex-column align-items-center justify-content-center align-self-center"/>
       <Features />
       <Specs />
       <Subscribe />
