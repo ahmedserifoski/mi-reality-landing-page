@@ -1,5 +1,5 @@
 import React from "react"
-import { MDBBox, MDBCol, MDBContainer, MDBRow, MDBFooter, MDBListGroup, MDBListGroupItem  } from 'mdbreact'
+import { MDBBox, MDBContainer, MDBFooter, MDBListGroup, MDBListGroupItem  } from 'mdbreact'
 import "./footer.css"
 const Footer = () => {
     return(

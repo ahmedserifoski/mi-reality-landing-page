@@ -1,5 +1,5 @@
 import React from "react"
-import { MDBBox , MDBContainer, MDBRow, MDBCol} from 'mdbreact'
+import { MDBContainer, MDBRow, MDBCol} from 'mdbreact'
 import "./subscribe.css"
 import Button from "../Button"
 

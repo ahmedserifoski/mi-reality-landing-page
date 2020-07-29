@@ -4,7 +4,7 @@ import "./home.css"
 import Button from "../Button"
 import product from "./product.png"
 
-import {MDBContainer, MDBRow, MDBCol} from "mdbreact"
+import {MDBContainer, MDBRow} from "mdbreact"
 import { BrowserRouter as Router } from 'react-router-dom';
 
 class Home extends React.Component {

@@ -3,10 +3,10 @@ import {
 MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBContainer
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
-import { BrowserRouter, Route, Link } from "react-router-dom"
 
 
-import Subscribe from '../subscribe/subscribe'
+
+
 
 
 
