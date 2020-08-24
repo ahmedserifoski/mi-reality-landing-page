@@ -3,7 +3,7 @@ import {
 MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBContainer
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
-
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 
@@ -32,16 +32,16 @@ render() {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav right className="w-100 d-flex justify-content-md-end">
             <MDBNavItem>
-              <MDBNavLink to="#home">Home</MDBNavLink>
+            <Link style={{color: "black", margin: "9px"}} to="#home">Home</Link>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Features</MDBNavLink>
+              <Link style={{color: "black", margin: "9px"}} to="#features">Features</Link>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Specs</MDBNavLink>
+            <Link style={{color: "black", margin: "9px"}} to="#specs">Specs</Link>
             </MDBNavItem>
             <MDBNavItem>
-            <MDBNavLink to="#Subscribe">Subscribe</MDBNavLink>
+            <Link style={{color: "black", margin: "9px"}} to="#subscribe">Subscribe</Link>
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right>

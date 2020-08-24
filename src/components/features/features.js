@@ -12,7 +12,7 @@ import "./features.css"
 class Features extends React.Component {
     render() {
         return (
-            <div className="px-3 grey lighten-4 py-3" > 
+            <div id="features" className="px-3 grey lighten-4 py-3" > 
             
                 
                 <h5  className="text-center grey-text">Mi Features</h5>

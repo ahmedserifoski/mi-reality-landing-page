@@ -12,34 +12,7 @@ const Footer = () => {
             </div>
            
                 <MDBContainer >
-                    {/* <MDBRow className="text-center">
-                        <MDBCol xs="12" style={{backgroundColor: "yellow"}}>
-                            <ul >
-                                <li className="list-unstyled my-3" >
-                                    <a className="grey-text"  href="#!">About Us</a>
-                                </li >
-                                <li className="list-unstyled my-3" >
-                                    <a className="grey-text" href="#!">Product Details</a>
-                                </li >
-                                <li className="list-unstyled my-3" >
-                                    <a className="grey-text"  href="#!">Pricing</a>
-                                </li>
-                            </ul>
-                        </MDBCol>
-                        <MDBCol xs="12" style={{backgroundColor: "yellow"}}>
-                            <ul >
-                                <li className="list-unstyled my-3" >
-                                    <a className="grey-text" href="#!">Privacy Policy</a>
-                                </li >
-                                <li className="list-unstyled my-3" >
-                                    <a className="grey-text" href="#!">User Agreement</a>
-                                </li >
-                                <li className="list-unstyled my-3" >
-                                    <a className="grey-text"  href="#!">Contact</a>
-                                </li>
-                            </ul>
-                        </MDBCol>
-                    </MDBRow> */}
+                   
                     <MDBListGroup style={{color: "black"}}>
                         <MDBListGroupItem >Home</MDBListGroupItem>
                         <MDBListGroupItem >Features</MDBListGroupItem>
