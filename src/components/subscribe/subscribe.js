@@ -8,7 +8,7 @@ const Subscribe = () => {
         <div id="subscribe" className="grey lighten-4" >
             <form >
                 <MDBRow>
-                    <MDBCol className="text-center mx-3">
+                    <MDBCol className="text-center mx-3 mt-3">
                         <h3>Subscribe now and get lifetime premium access</h3>
                     </MDBCol>
                 </MDBRow>

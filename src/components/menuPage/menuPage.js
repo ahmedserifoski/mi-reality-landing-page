@@ -26,7 +26,7 @@ render() {
           <Router >
       <MDBNavbar light className="z-depth-0 light" expand="md">
         <MDBNavbarBrand>
-          <strong className="light-green white-text accent-3 py-3 px-3">Mi Reality</strong>
+          <strong className="light-green white-text accent-3 py-3 px-3 font-weight-bold">Mi Reality</strong>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>

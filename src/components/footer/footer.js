@@ -8,7 +8,7 @@ const Footer = () => {
             <div>
                 <MDBBox>Cu qui probo malorum saperet. Ne admodum apeirian iracundia usu, eam cu agam ludus, eum munere accusam molestie ut. Alienum percipitur ne est, pri quando iriure ad.</MDBBox>
                 <br/>
-                <MDBBox>© 2017 YDirection Themes by IOThemes</MDBBox>
+                <MDBBox className="mb-2">© 2017 YDirection Themes by IOThemes</MDBBox>
             </div>
            
                 <MDBContainer >
